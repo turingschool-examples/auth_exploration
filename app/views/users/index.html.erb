@@ -1,0 +1,6 @@
+<% @users.each do |user| %>
+<section id="user-<%= user.id %>">
+  <%= user.name %>
+  email: <%= user.email %>
+</section>
+<% end %>
