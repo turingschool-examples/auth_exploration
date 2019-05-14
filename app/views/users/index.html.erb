@@ -1,3 +1,5 @@
+<%= link_to 'Register as User', new_user_path %>
+
 <% @users.each do |user| %>
 <section id="user-<%= user.id %>">
   <%= user.name %>
